@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--
+Name: Shevali Kadakia
+CS 132 Spring 2024
+    This is the contact.html page for the eCommerce final project. 
+    It has a contact me form to send feeback through the website.
+-->
+<html lang="en">
+    <head>
+        <title>Late Night Food</title>
+
+        <!-- Google Fonts connection -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
+              rel="stylesheet">
+
+        <!-- Calling CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="food-styles.css">
+
+        <!-- Calling JS -->
+        <script src="utils.js"></script>
+        <script defer src="food.js"></script>
+    </head>
+    <body>
+        <header>
+            <section id="header-text">
+                <h1>Late Night Food</h1>
+                <article id="cart-style">
+                    <img src="img/cart.png" alt="cart" id="cart"/>
+                </article>
+            </section>
+            
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admin.html">Admin Page</a></li>
+                    <li><a href="customer.html">Customer Page</a></li>
+                    <li><a href="#">Contact Page</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+    <!-- Content on Page -->
+            <h2>Contact Page</h2>
+            <!-- Contact Form -->
+            <section id="contact-me">
+                <form id="contact-form">
+                    <label>
+                      Name: 
+                      <input id="name-input" name="name" type="text" required/>
+                    </label>
+                    <label>
+                      E-mail:
+                      <input id="email-input" name="email" type="email" 
+                      required/>
+                    </label>
+                    <textarea id="question" name="question"
+                    minlength="10" cols="30" rows="10"  
+                    placeholder="Enter your question..."></textarea>
+                    <button id="contact-btn" type="submit">Submit!</button>
+                  </form>
+            </section>
+            <!-- Thank you section -->
+            <section id="thanks" class="hidden">
+                <p>Thanks for Submitting!</p>
+                <a href="index.html">
+                    <button>Home Page</button>
+                </a>
+            </section>
+        </main>
+        <footer>
+            <p>Made in 2024</p>
+        </footer>
+    </body>
+</html>

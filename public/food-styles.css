@@ -1,0 +1,70 @@
+
+/**
+ * Name: Shevali Kadakia
+ * CS 132 Spring 2024
+ * Date: April 12th, 2024
+ * This is the CSS page for the specifics of each page minus the home page
+ * (index.hml). Designs the menus on Customer and Admin pages and contact form.
+ */
+
+/* Display Flex */
+#singular-food, #foods-section, .disp-sing-food, .single-food, .food, 
+#contact-form{
+    display: flex;
+}
+
+#singular-food, #contact-form, .food, .single-food {
+    flex-direction: column;
+}
+
+/* Styling menu and single item view */
+#foods-section {
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.food, .single-food {
+    align-items: center;
+    background-color: white;
+    font-size: 10pt;
+    width: 20%;
+    padding: 10px;
+    align-items: center;
+    height: auto;
+    border-radius: 30px;
+    border-style: groove;
+    border-color: black;
+}
+
+#singular-food > textarea {
+    max-width: 30%;
+}
+
+#singular-food > button {
+    max-width: 10%;
+}
+
+.food, #singular-food {
+    margin: 10px;
+} 
+
+.disp-sing-food {
+    justify-content: center;
+}
+
+.food-img {
+    width: 100px;
+    height: auto;
+}
+
+/* Styling contact page */
+#question {
+    margin: 50px;
+    width: 350px;
+}
+
+#contact-btn {
+    margin: 50px;
+    width: 100px;
+}

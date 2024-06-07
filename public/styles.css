@@ -1,0 +1,78 @@
+/**
+ * Name: Shevali Kadakia
+ * CS 132 Spring 2024
+ * Date: April 12th, 2024
+ * This is the styles.css page for my final project. 
+ * It is used by all pages in to give the site a consistent
+ * look and feel.
+ */
+
+/* Flex Display */
+#header-text, #cart-style, body, nav > ul {
+    display: flex;
+}
+
+/* Flex direction: row */ 
+#header-text, #cart-style {
+    flex-direction: row;
+}
+
+#header-text {
+    justify-content: space-between;
+}
+
+#header-text > h1, h2 {
+    margin-left: 10px;
+}
+
+h2, #page-description {
+    text-align: center;
+}
+
+/* Styling cart */
+#cart {
+    max-width: 10%;
+    max-height: 70%;
+    padding-right: 10px;
+}
+
+#cart-style {
+    justify-content: right;
+    align-items: center;
+}
+
+#cart-style > p, #header-text > h2 {
+    margin-right: 10px;
+}
+
+body {
+    background-color: burlywood;
+    flex-direction: column;
+    height: 100vh;
+    /* Removing default margin */
+    margin: 0;
+}
+
+main {
+    flex-grow: 1;
+}
+
+footer, nav > ul {
+    background-color: beige;
+    text-align: center;
+}
+
+/* Styling navigation bar */
+nav > ul {
+    padding: 0px;
+    font-size: large;
+    margin: 0px;
+    justify-content: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+/* Hidden features */
+.hidden, #foods-section.hidden, #singular-food.hidden {
+    display: none;
+}

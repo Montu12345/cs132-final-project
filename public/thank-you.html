@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!--
+Name: Shevali Kadakia
+CS 132 Spring 2024
+    This is the thank-you.html page for the eCommerce final project. 
+    It is the thank you page that shows up once an admin updates the menu.
+
+    NOTE: admin view: 
+-->
+<html lang="en">
+    <head>
+        <title>Late Night Food</title>
+
+        <!-- Google Fonts connection -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" 
+              rel="stylesheet">
+
+        <!-- Calling CSS -->
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="food-styles.css">
+
+        <!-- Calling JS -->
+        <script src="utils.js"></script>
+        <script defer src="food.js"></script>
+    </head>
+    <body>
+        <header>
+            <section id="header-text">
+                <h1>Late Night Food</h1>
+                <article id="cart-style">
+                    <img src="img/cart.png" alt="cart" id="cart"/>
+                </article>
+            </section>
+            
+            <!-- Navigation Bar -->
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="admin.html">Admin Page</a></li>
+                    <li><a href="customer.html">Customer Page</a></li>
+                    <li><a href="contact.html">Contact Page</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+    <!-- Content on Page -->
+            <h2>Thank You</h2>
+            <!-- Buttons to go to customer or admin page -->
+            <a href="admin.html">
+                <button>Back to Admin Page</button>
+            </a>
+            <a href="customer.html">
+                <button>Customer Page</button>
+            </a>
+        </main>
+        <footer>
+            <p>Made in 2024</p>
+        </footer>
+    </body>
+</html>

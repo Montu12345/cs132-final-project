@@ -1,0 +1,30 @@
+/**
+ * Name: Shevali Kadakia
+ * CS 132 Spring 2024
+ * Date: April 12th, 2024
+ * This is the css page for index.html. It styles the text and 
+ * images in index.html.
+ */
+
+/* Flex display */
+#images, #intro {
+    display: flex;
+}
+
+/* Styling images */
+#images {
+    flex-direction: row;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+
+#images > img {
+    max-width: 30%;
+}
+
+/* Styling main text on page */
+#intro {
+    font-family: "Open Sans", "Times New Roman", sans-serif;
+    font-size: 14pt; 
+    justify-content: center;
+}
