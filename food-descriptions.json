@@ -1,0 +1,88 @@
+{
+  "savory-foods": {
+    "cheese-pizza": {
+      "option1": "More Cheese",
+      "option2": "Pineapple",
+      "updates": "More Cheese"
+    },
+    "fries": {
+      "option1": "Garlic",
+      "option2": "Cheese",
+      "updates": ""
+    },
+    "mac-and-cheese": {
+      "option1": "More Cheese",
+      "option2": "Bacon",
+      "updates": ""
+    },
+    "rice": {
+      "option1": "Vegetables",
+      "option2": "Chicken",
+      "updates": ""
+    },
+    "vegetable-soup": {
+      "option1": "Vegetables",
+      "option2": "Chicken",
+      "updates": ""
+    }
+  },
+  "sweet-foods": {
+    "cake": {
+      "option1": "Chocolate",
+      "option2": "Vanilla",
+      "updates": ""
+    },
+    "cookies": {
+      "option1": "Chocolate",
+      "option2": "Sugar",
+      "updates": "Chocolate, Sugar"
+    },
+    "donut": {
+      "option1": "Glazed",
+      "option2": "Chocolte",
+      "updates": ""
+    },
+    "ice-cream": {
+      "option1": "Chocolate",
+      "option2": "Strawberry",
+      "updates": ""
+    },
+    "macaroons": {
+      "option1": "Chocolate",
+      "option2": "Strawberry",
+      "updates": ""
+    }
+  },
+  "healthy-foods": {
+    "apple": {
+      "option1": "Green",
+      "option2": "Red",
+      "updates": "Red"
+    },
+    "broccoli": {
+      "option1": "Garlic",
+      "option2": "Cheese",
+      "updates": ""
+    },
+    "pretzels": {
+      "option1": "Salted",
+      "option2": "Chocolte",
+      "updates": ""
+    },
+    "salad": {
+      "option1": "Chicken",
+      "option2": "Vegetables",
+      "updates": ""
+    },
+    "salmon": {
+      "option1": "Smoked",
+      "option2": "Salted",
+      "updates": "Smoked, Salted"
+    },
+    "smoothie": {
+      "option1": "Strawberry",
+      "option2": "Mango",
+      "updates": ""
+    }
+  }
+}
